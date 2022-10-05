@@ -1,0 +1,28 @@
+# Dark II post EQ
+
+# ------------------------- Tonestack -------------------------
+ts
+
+# C1
+#470p
+680p
+
+# C2
+22n
+
+# C3
+22n
+
+# R1 Treble pot
+250k
+
+# R2 Bass pot
+1M
+
+# R3 Middle pot
+25k
+
+# R4
+47k
+
+end

@@ -1,0 +1,107 @@
+# Amplex V1.0 - Twin Clean
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+68k
+
+# Rp, Ohms
+220k
+
+# Rk, Ohms
+1800
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+23u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+1M
+# C
+47n
+
+# ------------------------- Tonestack -------------------------
+ts
+
+# C1
+220p
+
+# C2
+100n
+
+# C3
+47n
+
+# R1 Treble pot
+250k
+
+# R2 Bass pot
+250k
+
+# R3 Middle pot
+10k
+
+# R4
+100k
+
+# ------------------------- Gain Type 1 -------------------------
+g1
+
+# ------------------------- Valve Stage 2 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+100k
+
+# Rp, Ohms
+100k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+22u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+1M
+# C
+47n
+
+# ------------------------- Divider -------------------------
+d
+40
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

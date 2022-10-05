@@ -1,0 +1,147 @@
+# Amplex - Triad Clean
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+33k
+
+# Rp, Ohms
+100k
+
+# Rk, Ohms
+2.7k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+0.68u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+1M
+# C
+22n
+
+# ------------------------- Low Shelf Filter -------------------------
+ls
+
+# R1, Ohms
+470k
+
+# R2, Ohms
+100k
+
+# C1, F
+220p
+
+# ------------------------- Tonestack -------------------------
+ts
+
+# C1
+220p
+
+# C2
+100n
+
+# C3
+47n
+
+# R1 Treble pot
+220k
+
+# R2 Bass pot
+220k
+
+# R3 Middle pot
+10k
+
+# R4
+100k
+
+# ------------------------- Gain Type 2 -------------------------
+g2
+
+# C1 Pre-bright cap, F
+# off imitation
+1p
+
+# R1 Pre-bright res, Ohms
+100k
+
+# C2 Bright cap, F
+# 1p without bright
+220p
+
+# R2 Gain pot, Ohms
+1000k
+
+# R3 Load, Ohms
+10M
+
+# ------------------------- Valve Stage 2 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+250k
+
+# Rp, Ohms
+100k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+10u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+1470k
+# C
+47n
+
+# ------------------------- Low Shelf Filter -------------------------
+ls
+
+# R1, Ohms
+470k
+
+# R2, Ohms
+1M
+
+# C1, F
+220p
+
+# ------------------------- Divider -------------------------
+d, 10
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

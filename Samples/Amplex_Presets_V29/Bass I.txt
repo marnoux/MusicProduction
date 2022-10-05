@@ -1,0 +1,165 @@
+# Amplex V2.0 - Bass I
+
+# Mid control is not implemented. It can be simulated by an equalizer after the amplifier.
+# Three ranges to choose from.
+# 1) 200 Hz, +/- 12dB
+# 2) 2k Hz, +/- 12dB
+# 3) 2.8k Hz, +/- 12dB
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+47k
+
+# Rp, Ohms
+220k
+
+# Rk, Ohms
+3.3k
+
+# Ck off-0, on-1
+0
+
+# Ck, F
+47u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+100k
+# C
+0.1u
+
+# ------------------------- Gain Type 2 -------------------------
+g2
+
+# C1 Pre-bright cap, F
+47n
+
+# R1 Pre-bright res, Ohms
+# off imitation
+1000M
+
+# C2 Bright cap, F
+#500p
+# off imitation
+1p
+
+# R2 Gain pot, Ohms
+1000k
+
+# R3 Load, Ohms
+10M
+
+# ------------------------- Valve Stage 2 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+250k
+
+# Rp, Ohms
+47k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+0
+
+# Ck, F
+47u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+1000k
+# C
+0.1u
+
+# ------------------------- Tonestack Type 2 -------------------------
+ts2
+
+# C1
+100n
+
+# C2
+1n
+
+# C3
+10n
+
+# C4
+470p
+
+# C5
+4700p
+
+# R1
+220k
+
+# R2
+22k
+
+# R3
+120k
+
+# R4 Load
+1M
+
+# Rb Bass pot
+1M
+
+# Rt Treble pot
+1M
+
+# ------------------------- Valve Stage 3 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+100k
+
+# Rp, Ohms
+220k
+
+# Rk, Ohms
+8k
+
+# Ck off-0, on-1
+0
+
+# Ck, F
+47u
+
+# ------------------------- High Pass Filter -------------------------
+hp, 31
+
+# ------------------------- Divider -------------------------
+d
+150
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

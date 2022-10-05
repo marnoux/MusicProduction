@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:program tx:quality="Default" tx:name="Tom10" tx:icon="#bass-drum"
+   xsi:schemaLocation="http://www.tx16wx.com/3.0/ program" tx:created-by="30100"
+   xmlns:tx="http://www.tx16wx.com/3.0/program" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <tx:wavematrix tx:id="1" tx:path="Tom10.txmatrix"/>
+   <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:high-key="G9" tx:low-vel="0"/>
+   <tx:soundshape tx:delay="0ms" tx:id="3dda9250-e779-4ae5-a83e-6a83c6f94fe4" tx:name="New Sound" tx:pan="0%"
+      tx:start="0ms" tx:volume="0 dB" tx:velocity-offset="0" tx:glide-mode="Held" tx:glide="0ms" tx:velocity="100%"
+      tx:pwm="0%">
+      <tx:aeg tx:attack="0ms" tx:attack-shape="-50%" tx:decay1="1.67m" tx:decay1-shape="-50%" tx:decay2="1.67m"
+         tx:decay2-shape="-50%" tx:release="1.67m" tx:release-shape="-50%" tx:level1="0 dB" tx:level2="0 dB"
+         tx:sustain="0 dB"/>
+      <tx:send tx:level="0 dB"/>
+      <tx:send tx:level="0 dB"/>
+      <tx:send tx:level="0 dB"/>
+      <tx:modulation/>
+   </tx:soundshape>
+   <tx:group tx:name="New Group" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Normal"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="forestgreen" tx:soundshape="3dda9250-e779-4ae5-a83e-6a83c6f94fe4">
+      <tx:region tx:mode="--" tx:attenuation="0 dB" tx:pan="0%" tx:matrix="1">
+         <tx:bounds tx:high-vel="127" tx:low-key="C3" tx:low-vel="0" tx:high-key="C3"/>
+      </tx:region>
+   </tx:group>
+</tx:program>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:wavematrix tx:name="Metal Kick Matrix" xsi:schemaLocation="http://www.tx16wx.com/3.0/ wavematrix"
+   tx:created-by="30100" xmlns:tx="http://www.tx16wx.com/3.0/wavematrix"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <tx:wave tx:id="1" tx:path="Kick_04.wav"/>
+   <tx:wave tx:id="2" tx:path="Kick_05.wav"/>
+   <tx:wave tx:id="3" tx:path="Kick_06.wav"/>
+   <tx:wave tx:id="4" tx:path="Kick_01.wav"/>
+   <tx:wave tx:id="5" tx:path="Kick_02.wav"/>
+   <tx:wave tx:id="6" tx:path="Kick_03.wav"/>
+   <tx:xaxis tx:source="Random">
+      <tx:curve tx:smooth="true" tx:shape="Linear"/>
+   </tx:xaxis>
+   <tx:yaxis tx:source="Random">
+      <tx:curve tx:smooth="true" tx:shape="Linear"/>
+   </tx:yaxis>
+   <tx:column tx:value="42"/>
+   <tx:column tx:value="85"/>
+   <tx:row tx:value="0">
+      <tx:cell tx:pan="0%" tx:wave="1" tx:mode="RAM" tx:attenuation="0 dB"/>
+      <tx:cell tx:pan="0%" tx:wave="2" tx:mode="RAM" tx:attenuation="0 dB"/>
+      <tx:cell tx:pan="0%" tx:wave="3" tx:mode="RAM" tx:attenuation="0 dB"/>
+   </tx:row>
+   <tx:row tx:value="64">
+      <tx:cell tx:pan="0%" tx:wave="4" tx:mode="RAM" tx:attenuation="0 dB" tx:fine="0" tx:root="C2"/>
+      <tx:cell tx:pan="0%" tx:wave="5" tx:mode="RAM" tx:attenuation="0 dB" tx:fine="0" tx:root="C2"/>
+      <tx:cell tx:pan="0%" tx:wave="6" tx:mode="RAM" tx:attenuation="0 dB"/>
+   </tx:row>
+</tx:wavematrix>

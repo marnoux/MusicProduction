@@ -1,0 +1,119 @@
+# Amplex - Steves Clean Bright
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+33k
+
+# Rp, Ohms
+250k
+
+# Rk, Ohms
+2.7k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+0.68u
+
+# ------------------------- High Pass Filter -------------------------
+hp, 10
+
+# ------------------------- Tonestack -------------------------
+ts
+
+# C1
+250p
+
+# C2
+22n
+
+# C3
+22n
+
+# R1 Treble pot
+250k
+
+# R2 Bass pot
+250k
+
+# R3 Middle pot
+10k
+
+# R4
+100k
+
+# ------------------------- Gain Type 2 -------------------------
+g2
+
+# C1, F
+100n
+
+# R1, Ohms
+# off imitation
+1000M
+
+# C2 Bright cap, F
+220p
+
+# R2 Gain pot, Ohms
+1M
+
+# R3 Load, Ohms
+10M
+
+# ------------------------- Valve Stage 2 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+250k
+
+# Rp, Ohms
+100k
+
+# Rk, Ohms
+820
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+10u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+940k
+# C
+22n
+
+# ------------------------- Divider -------------------------
+d
+50
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

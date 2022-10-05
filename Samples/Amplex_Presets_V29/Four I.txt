@@ -1,0 +1,136 @@
+# Amplex V1.0 - Four I
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+68k
+
+# Rp, Ohms
+120k
+
+# Rk, Ohms
+2.2k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+47u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+650k
+# C
+220n
+
+# ------------------------- Low Shelf Filter -------------------------
+ls
+
+# R1
+470k
+
+# R2
+220k
+
+# C1
+2.2n
+
+# ------------------------- Gain Type 2 -------------------------
+g2
+
+# C1 Pre-bright cap, F
+110p
+
+# R1 Pre-bright res, Ohms
+940k
+
+# C2 Bright cap, F
+100n
+
+# R2 Gain pot, Ohms
+250k
+
+# R3 Load, Ohms
+10M
+
+# ------------------------- Valve Stage 2 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+470k
+
+# Rp, Ohms
+120k
+
+# Rk, Ohms
+680
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+2.2u
+
+# ------------------------- Cathode Follower -------------------------
+cf
+
+# ------------------------- High Pass Filter -------------------------
+hp
+
+# Freq, Hz
+10
+
+# ------------------------- Divider -------------------------
+d
+50
+
+# ------------------------- Tonestack -------------------------
+ts
+
+# C1
+560p
+
+# C2
+22n
+
+# C3
+22n
+
+# R1 Treble pot
+220k
+
+# R2 Bass pot
+1M
+
+# R3 Middle pot
+22k
+
+# R4
+39k
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

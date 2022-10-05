@@ -1,0 +1,70 @@
+# Amplex V1.0 - Hot Dog Clean (Tonestack not active)
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+68k
+
+# Rp, Ohms
+220k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+22u
+
+# ------------------------- Gain Type 2 -------------------------
+g2
+
+# C1 Pre-bright cap, F
+1.5n
+
+# R1 Pre-bright res, Ohms
+# off imitation
+1000M
+
+# C2 Bright cap, F
+180p
+
+# R2 Gain pot, Ohms
+1M
+
+# R3 Load, Ohms
+10M
+
+# ------------------------- High Pass Filter -------------------------
+hp
+# Freq, Hz
+31
+
+# ------------------------- Divider -------------------------
+d, 5
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+0
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:performance tx:name="Metal Drum Kit" xsi:schemaLocation="http://www.tx16wx.com/3.0/ performance"
+   tx:created-by="30100" xmlns:tx="http://www.tx16wx.com/3.0/performance"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <tx:slot tx:name="Kick" tx:program="Kick.txprog" tx:channel="1" tx:output="Out 1" tx:color="cornsilk">
+      <tx:volume tx:value="0 dB"/>
+      <tx:pan tx:value="0%"/>
+      <tx:transpose tx:value="0"/>
+      <tx:detune tx:value="0"/>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+   </tx:slot>
+   <tx:slot tx:name="Snare" tx:program="Snare.txprog" tx:channel="1" tx:output="Out 1" tx:color="blueviolet">
+      <tx:volume tx:value="0 dB"/>
+      <tx:pan tx:value="0%"/>
+      <tx:transpose tx:value="0"/>
+      <tx:detune tx:value="0"/>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+   </tx:slot>
+   <tx:slot tx:name="Tom10" tx:program="Tom10.txprog" tx:channel="1" tx:output="Out 1" tx:color="burlywood">
+      <tx:volume tx:value="0 dB"/>
+      <tx:pan tx:value="0%"/>
+      <tx:transpose tx:value="0"/>
+      <tx:detune tx:value="0"/>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+   </tx:slot>
+   <tx:slot tx:name="Tom12" tx:program="Tom12.txprog" tx:channel="1" tx:output="Out 1" tx:color="lightsteelblue">
+      <tx:volume tx:value="0 dB"/>
+      <tx:pan tx:value="0%"/>
+      <tx:transpose tx:value="0"/>
+      <tx:detune tx:value="0"/>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+   </tx:slot>
+   <tx:slot tx:name="Tom16" tx:program="Tom16.txprog" tx:channel="1" tx:output="Out 1" tx:color="cadetblue">
+      <tx:volume tx:value="0 dB"/>
+      <tx:pan tx:value="0%"/>
+      <tx:transpose tx:value="0"/>
+      <tx:detune tx:value="0"/>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+      <tx:send>
+         <tx:level tx:value="0 dB"/>
+      </tx:send>
+   </tx:slot>
+</tx:performance>

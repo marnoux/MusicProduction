@@ -1,0 +1,30 @@
+# Amplex - Power Amp
+
+# ------------------------- Multiply -------------------------
+m, 4
+
+# ------------------------- Gain -------------------------
+g1
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

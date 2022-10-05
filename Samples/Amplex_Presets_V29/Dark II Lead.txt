@@ -1,0 +1,235 @@
+# Dark II Lead
+
+# ------------------------- Valve Stage 1 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+68k
+
+# Rp, Ohms
+150k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+# 22u for bass shift
+0.47u
+
+# ------------------------- High Pass Filter -------------------------
+hp, 10
+
+# ------------------------- Tonestack -------------------------
+ts
+
+# C1
+# 1n for treble shift
+250p
+
+# C2
+100n
+
+# C3
+47n
+
+# R1 Treble pot
+250k
+
+# R2 Bass pot
+250k
+
+# R3 Middle pot
+10k
+
+# R4
+100k
+
+# ------------------------- Gain Type 2 -------------------------
+g2
+
+# C1 Pre-bright cap, F
+# off imitation
+1p
+
+# R1 Pre-bright res, Ohms
+100k
+
+# C2 Bright cap, F
+# 1 pF without bright
+180p
+
+# R2 Gain pot, Ohms
+1000k
+
+# R3 Load, Ohms
+10M
+
+# ------------------------- Valve Stage 2 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+500k
+
+# Rp, Ohms
+100k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+22u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+100k
+# C
+47n
+
+# ------------------------- Resistive Divider -------------------------
+rd
+# R1
+1M
+# R2
+1M
+
+# ------------------------- Lead Drive -------------------------
+# ------------------------- Divider -------------------------
+d, 1
+
+# ------------------------- Valve Stage 3 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+500k
+
+# Rp, Ohms
+82k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+1
+
+# Ck, F
+2.2u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+340k
+# C
+22n
+
+# ------------------------- Resistive Divider -------------------------
+rd
+# R1
+270k
+# R2
+68k
+
+# ------------------------- Valve Stage 4 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+100k
+
+# Rp, Ohms
+270k
+
+# Rk, Ohms
+3.3k
+
+# Ck off-0, on-1
+# on for lead bright
+0
+
+# Ck, F
+0.22u
+
+# ------------------------- Low Pass Filter -------------------------
+# Anode cap 1nF imitation
+lp, 2000
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+320k
+# C
+47n
+
+# ------------------------- Low Shelf Filter -------------------------
+ls
+
+# R1
+220k
+
+# R2
+100k
+
+# C1
+250p
+
+# ------------------------- Valve Stage 5 -------------------------
+# Caution! High output level!
+v
+
+# Rg, Ohms
+1000k
+
+# Rp, Ohms
+100k
+
+# Rk, Ohms
+1.5k
+
+# Ck off-0, on-1
+0
+
+# Ck, F
+1u
+
+# ------------------------- RC High Pass Filter -------------------------
+hprc
+# R
+330k
+# C
+22n
+
+# ------------------------- Divider -------------------------
+d
+120
+
+# ------------------------- Power Amp -------------------------
+pa
+
+# Low End (resonance) freq, Hz
+85
+
+# Low End quality (Q)
+2.5
+
+# Presence freq, Hz
+1500
+
+# Feedback off-0, on-1
+1
+
+# BIAS voltage, V
+55
+
+# BIAS asymmetry, V
+3
+
+end

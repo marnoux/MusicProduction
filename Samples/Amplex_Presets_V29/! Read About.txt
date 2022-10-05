@@ -1,0 +1,28 @@
+2120 is Peavey 5150 style
+230 is Engl 530 style
+Barbarian is Engl Savage style
+Bass is Ampeg SVT style
+Citrus CR120 is Orange OR120 style
+Crunchman is Friedman BE-100 style
+Dark II is Mesa Mark II C+ style
+Firecube is Engl Fireball style
+Four is Diezel VH4 style
+Gerbert III is Diezel Herbert CH-3 style
+Hell is Randall Satan style
+Himatt 20 is Hiwatt Custom 20 style
+Hot Dog is BadCat Hot Cat style
+J800 is Marshall JCM800 style
+J800 Lead is Marshall JCM800 Lead Series style
+K700 is Marshall JCM800 mod by NaLex
+Ketchup is Tomato style
+Magic is Crate BV style
+Pectifier is Mesa Rectifier style
+Power Amp
+Revolt is Krank Revolution style
+Screamer is NaLex Tube Screamer
+Steves is Friedman SS-100 style
+SV is Carvin Legacy style
+Triad is Groove Tubes Trio style
+Twin Clean is Fender Twin style
+Uber is Bogner Ubershall style
+ZLO is Soldano SLO style

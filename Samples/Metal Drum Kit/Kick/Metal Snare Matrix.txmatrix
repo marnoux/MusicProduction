@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:wavematrix tx:name="Metal Snare Matrix" xsi:schemaLocation="http://www.tx16wx.com/3.0/ wavematrix"
+   tx:created-by="30100" xmlns:tx="http://www.tx16wx.com/3.0/wavematrix"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <tx:xaxis tx:source="--">
+      <tx:curve tx:smooth="true" tx:shape="Linear"/>
+   </tx:xaxis>
+   <tx:yaxis tx:source="--">
+      <tx:curve tx:smooth="true" tx:shape="Linear"/>
+   </tx:yaxis>
+   <tx:row tx:value="0">
+      <tx:cell tx:pan="0%" tx:wave="&lt;none>" tx:mode="--" tx:attenuation="0 dB"/>
+   </tx:row>
+</tx:wavematrix>
